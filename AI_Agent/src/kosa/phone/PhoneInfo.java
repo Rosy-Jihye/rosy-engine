@@ -1,6 +1,8 @@
 package kosa.phone;
 
-public class PhoneInfo {
+import java.io.Serializable;
+
+public class PhoneInfo implements Serializable{
 	//name, phoneNo, birth
 	private String name; //정보 은닉을 위해, 코드 컨벤션-대부분의 개발자가 이렇게 함
 	private String phoneNo;
